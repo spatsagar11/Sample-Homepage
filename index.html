@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>FED Conclusive Exercise</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+	  <a href="#home" class="active">Home</a>
+	  <a href="#about">About</a>
+	  <a href="#services">Services</a>
+	  <a href="#contact">Contact</a>  
+	</div>
+	
+	<div>
+	<h3>Title Of Page</h3>
+	</div>
+	<hr/>
+	<h4>Choose an Internet speed</h4>
+<form action="">
+	<fieldset class="meter">
+
+		<label for="setTo1" class="checked">
+			<span>Good</span>
+			<input type="radio" name="temperature" id="setTo1" checked="checked" />
+		</label>
+
+		<label for="setTo2">
+			<span>Better</span>
+			<input type="radio" name="temperature" id="setTo2" />
+		</label>
+
+		<label for="setTo3">
+			<span>Best</span>
+			<input type="radio" name="temperature" id="setTo3" />
+		</label>
+
+		<label for="setTo4">
+			<span>Awesome</span>
+			<input type="radio" name="temperature" id="setTo4" />
+		</label>
+
+		<div class="thermometer">
+			<div class="mercury"></div>
+		</div>
+        
+        <div class="slider"></div>
+
+	</fieldset>
+</form>
+
+<div class="box">
+	<div class="row">
+	  <div class="half content-box corner-wrap pri-color">
+		<div class="content image1">
+		<img src="watching-tv.jpg" alt="image title"/>
+		  <h2>Banner 1</h2>
+		  <p>When I first brought my cat home from the humane society she was a mangy, pitiful animal. It cost a lot to adopt her: forty dollars. And then I had to buy litter, a litterbox, food, and dishes for her to eat out of. Two days after she came home with me she got taken to the pound by the animal warden. There's a leash law for cats in Fort Collins. If they're not in your yard they have to be on a leash. Anyway, my cat is my best friend. I'm glad I got her. She sleeps under the covers with me when it's cold. Sometimes she meows a lot in the middle of the night and wakes me up, though.</p>
+		  <button type="button" class="button">Learn More</button>
+		</div>
+	  </div>
+	  <div class="half content-box corner-wrap sec-color">
+		<div class="content image2">
+		<img src="watching-tv.jpg" alt="image title"/>
+		  <h2>Banner 2</h2>
+		  <p>When I first brought my cat home from the humane society she was a mangy, pitiful animal. It cost a lot to adopt her: forty dollars. And then I had to buy litter, a litterbox, food, and dishes for her to eat out of. Two days after she came home with me she got taken to the pound by the animal warden. There's a leash law for cats in Fort Collins. If they're not in your yard they have to be on a leash. Anyway, my cat is my best friend. I'm glad I got her. She sleeps under the covers with me when it's cold. Sometimes she meows a lot in the middle of the night and wakes me up, though.</p>
+		  <button type="button" id="readMore" onclick="showMoreInfo()" class="button">Learn More</button>
+		  <div id="moreContent" class="read-more">
+		  <p>When I first brought my cat home from the humane society she was a mangy, pitiful animal. It cost a lot to adopt her: forty dollars. And then I had to buy litter, a litterbox, food, and dishes for her to eat out of. Two days after she came home with me she got taken to the pound by the animal warden. There's a leash law for cats in Fort Collins. If they're not in your yard they have to be on a leash. Anyway, my cat is my best friend. I'm glad I got her. She sleeps under the covers with me when it's cold. Sometimes she meows a lot in the middle of the night and wakes me up, though.</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="row">
+		<div class="full content-box corner-wrap sec-color">
+			<div class="content image3">
+			<img src="watching-tv.jpg" alt="image title"/>
+				<h2>Banner 3</h2>
+				<p>When I first brought my cat home from the humane society she was a mangy, pitiful animal. It cost a lot to adopt her: forty dollars. And then I had to buy litter, a litterbox, food, and dishes for her to eat out of. Two days after she came home with me she got taken to the pound by the animal warden. There's a leash law for cats in Fort Collins. If they're not in your yard they have to be on a leash. Anyway, my cat is my best friend. I'm glad I got her. She sleeps under the covers with me when it's cold. Sometimes she meows a lot in the middle of the night and wakes me up, though.</p>
+				<button type="button" class="button">Learn More</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script>
+function showMoreInfo(){
+var moreDiv = document.getElementById('moreContent');
+if(moreDiv.style.display == "none"){
+document.getElementById('moreContent').style.display = "block";
+} else if(moreDiv.style.display == "block"){
+document.getElementById('moreContent').style.display = "none";
+} else{
+document.getElementById('moreContent').style.display = "block";
+}
+
+}
+</script>
+</body>
+</html>
